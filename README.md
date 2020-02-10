@@ -34,6 +34,7 @@ pip install word2ket
 You can directly use `EmbeddingKet` and `EmbeddingKetXS` layers in your model definition or you can use the `ketify` function to automatically replace all the `nn.Embedding` layers in your model. Below you can see a model that is using `7,680,000` parameters for its embedding could be `ketify` to just use `448` parameters.
 
 ```python
+# examples/demo.py 
 from word2ket import EmbeddingKet, EmbeddingKetXS, ketify, summary
 from torch import nn
 import logging
