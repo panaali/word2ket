@@ -132,11 +132,11 @@ python seq2seq_attn.py --embedding_type EmbeddingKetXS --gpu 0 --runName V2K_XS_
 
 
 # Reference
-If you use **word2ket**, please cite the paper:
+If you use **word2ket**, please cite our ICLR 2020 paper with the following BibTex entry:
 
 ## APA
 ```
-Panahi, A., Saeedi, S., & Arodz, T. (2019). word2ket: Space-efficient Word Embeddings inspired by Quantum Entanglement. In proceedings of the International Conference on Learning Representations (ICLR) 2020
+Panahi, A., Saeedi, S., & Arodz, T. (2019). word2ket: Space-efficient Word Embeddings inspired by Quantum Entanglement. In International Conference on Learning Representations 2020. Retrieved from https://openreview.net/forum?id=HkxARkrFwB
 ```
 
 ## BibTex
@@ -144,8 +144,8 @@ Panahi, A., Saeedi, S., & Arodz, T. (2019). word2ket: Space-efficient Word Embed
 @inproceedings{panahi2020wordket,
   title={word2ket: Space-efficient Word Embeddings inspired by Quantum Entanglement},
   author={Aliakbar Panahi and Seyran Saeedi and Tom Arodz},
-  booktitle={International Conference on Learning Representations},
-  year={2020},
+  booktitle={International Conference on Learning Representations 2020},
+  year={2019},
   url={https://openreview.net/forum?id=HkxARkrFwB}
 }
 ```
