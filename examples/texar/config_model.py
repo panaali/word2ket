@@ -1,7 +1,7 @@
 # Attentional Seq2seq model.
 # Hyperparameters not specified here will take the default values.
 
-num_units = 8000
+num_units = 256
 beam_width = 5
 dropout = 0.2
 
