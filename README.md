@@ -109,10 +109,10 @@ Using **GIGAWORD** dataset.
 python seq2seq_attn.py --embedding_type nn.Embedding --gpu 4 --runName G_000 --config-model config_model --config-data config_giga
 
 # Using EmbeddingKet Layer
-python seq2seq_attn.py --embedding_type EmbeddingKet   --gpu 0 --runName V2K_G_000    --logdir V2K    --config-model config_model --config-data config_giga --order 4 --rank 1
+python seq2seq_attn.py --embedding_type EmbeddingKet   --gpu 0 --runName V2K_G_000       --config-model config_model --config-data config_giga --order 4 --rank 1
 
 # Using EmbeddingKetXS Layer
-python seq2seq_attn.py --embedding_type EmbeddingKetXS --gpu 0 --runName V2K_XS_G_000 --logdir V2K_XS --config-model config_model --config-data config_giga --order 4 --rank 1
+python seq2seq_attn.py --embedding_type EmbeddingKetXS --gpu 0 --runName V2K_XS_G_000 --config-model config_model --config-data config_giga --order 4 --rank 1
 ```
 
 ## Run German-English machine translation
@@ -122,10 +122,10 @@ Using **IWSLT2014** (DE-EN) dataset
 python seq2seq_attn.py --embedding_type nn.Embedding --gpu 4 --runName I_000 --config-model config_model --config-data config_iwslt14
 
 # Using EmbeddingKet Layer
-python seq2seq_attn.py --embedding_type EmbeddingKet   --gpu 0 --runName V2K_I_000    --logdir V2K    --config-model config_model --config-data config_iwslt14 --order 4 --rank 1
+python seq2seq_attn.py --embedding_type EmbeddingKet   --gpu 0 --runName V2K_I_000       --config-model config_model --config-data config_iwslt14 --order 4 --rank 1
 
 # Using EmbeddingKetXS Layer
-python seq2seq_attn.py --embedding_type EmbeddingKetXS --gpu 0 --runName V2K_XS_I_000 --logdir V2K_XS --config-model config_model --config-data config_iwslt14 --order 4 --rank 1
+python seq2seq_attn.py --embedding_type EmbeddingKetXS --gpu 0 --runName V2K_XS_I_000 --config-model config_model --config-data config_iwslt14 --order 4 --rank 1
 
 ```
 
