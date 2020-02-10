@@ -12,7 +12,7 @@ setuptools.setup(
     name='word2ket',
     license="BSD-3-Clause",
     description='word2ket is an effiecient embedding layer for PyTorch that is inspired by Quantum Entanglement.',
-    version='0.0.1',
+    version='0.0.2',
     long_description=README,
     long_description_content_type="text/markdown",
     url='https://github.com/panaali/word2ket',
