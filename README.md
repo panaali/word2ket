@@ -1,4 +1,4 @@
-# Intro
+# word2ket
 **word2ket** is an space-efficient embedding layer that can reduce the space required to store the embeddings by up to 100,000x.
 
 This is a PyTorch implementaion of the embedding layer that is proposed in the paper [word2ket: Space-efficient Word Embeddings inspired by Quantum Entanglement](https://arxiv.org/abs/1911.04975). 
