@@ -328,7 +328,7 @@ def main():
                 final_val_score = val_score_c
                 final_test_score = test_score_c
                 final_epoch = i
-                ckpt_fn = 'modelsORG/org_%s_%02d_%s_model.ckpt'%(args.config_data,i,runName)
+                ckpt_fn = 'checkpoints/org_%s_%02d_%s_model.ckpt'%(args.config_data,i,runName)
                 torch.save(model.state_dict(), ckpt_fn)
 
             print_stdout_and_file(
@@ -345,7 +345,7 @@ def main():
                 final_val_score = val_score_c
                 final_test_score = test_score_c
                 final_epoch = i
-                ckpt_fn = 'modelsORG/org_%s_%02d_%s_model.ckpt'%(args.config_data,i,runName)
+                ckpt_fn = 'checkpoints/org_%s_%02d_%s_model.ckpt'%(args.config_data,i,runName)
                 torch.save(model.state_dict(), ckpt_fn)
 
             valStr=''
@@ -382,7 +382,7 @@ def main():
         scores_file.flush()
 
     print('FINAL',final_epoch,final_val_score,final_test_score,flush=True)
-    ckpt_fn = 'modelsORG/org_%s_%02d_%s_model_FINAL.ckpt'%(args.config_data,i,runName)
+    ckpt_fn = 'checkpoints/org_%s_%02d_%s_model_FINAL.ckpt'%(args.config_data,i,runName)
     torch.save(model.state_dict(), ckpt_fn)
 
 
