@@ -47,10 +47,6 @@ nohup python seq2seq_attn.py --embedding_type EmbeddingKetXS --gpu 0 --runName V
 """
 from word2ket import EmbeddingKet, EmbeddingKetXS, ketify, summary
 import importlib
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
-import texar.torch as tx
 from rouge import Rouge
 import os
 import argparse
@@ -83,6 +79,11 @@ epochs = args.epochs
 runName = args.runName
 config_model = importlib.import_module(args.config_model)
 config_data = importlib.import_module(args.config_data)
+
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import texar.torch as tx
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 class Seq2SeqAttn(nn.Module):
