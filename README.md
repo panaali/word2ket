@@ -132,7 +132,7 @@ python seq2seq_attn.py --embedding_type EmbeddingKetXS --gpu 0 --runName V2K_XS_
 
 
 # Reference
-If you use **word2ket**, please cite the paper with the following BibTex entry:
+If you use **word2ket**, please cite the paper:
 
 ## APA
 ```
