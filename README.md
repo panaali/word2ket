@@ -136,7 +136,7 @@ If you use **word2ket**, please cite the paper:
 
 ## APA
 ```
-Panahi, A., Saeedi, S., & Arodz, T. (2020). word2ket: Space-efficient Word Embeddings inspired by Quantum Entanglement. In proceedings of the International Conference on Learning Representations (ICLR) 2020
+Panahi, A., Saeedi, S., & Arodz, T. (2019). word2ket: Space-efficient Word Embeddings inspired by Quantum Entanglement. In proceedings of the International Conference on Learning Representations (ICLR) 2020
 ```
 
 ## BibTex
