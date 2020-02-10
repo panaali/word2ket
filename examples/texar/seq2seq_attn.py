@@ -52,6 +52,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import texar.torch as tx
 from rouge import Rouge
+import os
 import argparse
 parser = argparse.ArgumentParser()
 
@@ -72,6 +73,7 @@ parser.add_argument('--epochs', type=int, default=35)
 args = parser.parse_args()
 
 
+os.environ["CUDA_VISIBLE_DEVICES"]=args.gpu
 embedding_type = args.embedding_type # 'EmbeddingKet' or 'EmbeddingKetXS'
 order = args.order
 rank = args.rank
