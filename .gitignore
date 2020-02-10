@@ -1,0 +1,14 @@
+
+.DS_STORE
+build
+dist
+*.egg-info
+.eggs
+.vscode
+.pypirc
+__pycache__
+giga.zip
+examples/texar/data/*
+examples/texar/logs/*
+examples/texar/output/*
+!.gitkeep
