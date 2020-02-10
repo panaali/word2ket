@@ -14,6 +14,7 @@ setuptools.setup(
     description='word2ket is an effiecient embedding layer for PyTorch that is inspired by Quantum Entanglement.',
     version='0.0.1',
     long_description=README,
+    long_description_content_type="text/markdown",
     url='https://github.com/panaali/word2ket',
     packages=setuptools.find_packages(),
     python_requires=">=3.5",
@@ -21,7 +22,7 @@ setuptools.setup(
     classifiers=[
         # Trove classifiers
         # (https://pypi.python.org/pypi?%3Aaction=list_classifiers)
-        'Development Status :: 1 - Beta',
+        'Development Status :: 4 - Beta',
         'License :: OSI Approved :: BSD License',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3.5',
